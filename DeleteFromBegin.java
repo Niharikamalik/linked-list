@@ -8,7 +8,7 @@ class Main
 	    head.next.next.next.next= new Node(50);
 	    printlist(head);
 	    head = deletebegin(head) ;
-	    System.out.println("After insertion : ");
+	    System.out.println("After deletion : ");
 	    printlist(head);
 	}
 	static Node deletebegin(Node head){
