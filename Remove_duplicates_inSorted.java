@@ -7,10 +7,10 @@ class Main
 	    head.next.next.next = new Node(40);
 	    head.next.next.next.next= new Node(50);
 	    printlist(head);
-	    head = reverse(head);
+	    removeDuplicate(head);
 	    printlist(head);
 	}
-	static Node reverse(Node head)
+	static Node removeDuplicate(Node head)
     {
         Node curr = head;
         if(head ==  null) return null;
